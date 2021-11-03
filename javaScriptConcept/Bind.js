@@ -1,6 +1,5 @@
 /* 
 polyfill for bind method
-
 */
 
 let n = {
