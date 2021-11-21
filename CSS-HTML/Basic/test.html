@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <input
+      type="text"
+      id="source"
+      style="width: 60%"
+      placeholder="Enter the link of source."
+    />
+
+    <button id="loadscript">Fetch and Load!</button>
+    
+    <script>
+    document.getElementById('loadscript').onclick = function(){
+        let newScript = document.createElement('script')
+        newScript.src = document.getElementById('source').value;
+        document.head.appendChild(newScript)
+    }
+
+    </script>
+  </body>
+</html>
