@@ -1,0 +1,17 @@
+body {
+  background-image: url("Some Say.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.font-Size{
+  font-size:xx-large;
+  text-align: end;
+}
