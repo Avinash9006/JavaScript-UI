@@ -1,0 +1,20 @@
+.container{
+    display:flex;
+   justify-content: center;
+   
+}
+.container > a{
+    font-size: xx-large;
+
+}
+
+.container > a:hover:before,
+.container > a:hover ~ a:before{
+    content: "\2605";
+    position: absolute;
+ }
+
+ .active:before{
+    content: "\2605";
+    position: absolute;
+ }
